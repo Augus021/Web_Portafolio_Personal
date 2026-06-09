@@ -93,8 +93,8 @@ mi-portfolio/
 
 **Opción A — Con Git:**
 ```bash
-git clone https://github.com/tu-usuario/mi-portfolio.git
-cd mi-portfolio
+git clone https://github.com/Augus021/Web_Portafolio_Personal
+cd Web_Portafolio_Personal
 ```
 
 **Opción B — Descarga manual:**
