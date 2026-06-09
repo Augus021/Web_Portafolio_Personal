@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Dev · Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<canvas id="particles"></canvas>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#inicio" class="logo">
+    <div class="logo-icon">&lt;/&gt;</div>
+    DevPortfolio
+  </a>
+  <ul class="nav-links">
+    <li><a href="#inicio" class="active">Inicio</a></li>
+    <li><a href="#sobre-mi">Sobre Mí</a></li>
+    <li><a href="#habilidades">Habilidades</a></li>
+    <li><a href="#proyectos">Proyectos</a></li>
+    <li><a href="#experiencia">Experiencia</a></li>
+    <li><a href="#contacto" class="nav-cta">Contacto</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="inicio">
+  <div class="status-pill">disponible para proyectos</div>
+
+  <div class="avatar-wrapper">
+    <div class="avatar-inner">👩‍💻</div>
+    <div class="avatar-badge">✓</div>
+  </div>
+
+  <h1 class="hero-title">
+    Hola, soy <span class="gradient" id="typed-name"></span>
+  </h1>
+
+  <p class="hero-subtitle">
+    Apasionado/a por crear soluciones digitales modernas. Trabajo con
+    <span class="tech">React</span>, <span class="tech">Node.js</span>,
+    <span class="tech">Docker</span> y más. Siempre aprendiendo y construyendo cosas nuevas 🚀
+  </p>
+
+  <div class="hero-btns">
+    <a href="#proyectos" class="btn-primary">Ver Proyectos</a>
+    <a href="#contacto" class="btn-ghost">Contactarme</a>
+  </div>
+
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-num">3+</div>
+      <div class="stat-lbl">Proyectos</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">Git</div>
+      <div class="stat-lbl">Control de Versiones</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">Docker</div>
+      <div class="stat-lbl">Contenedores</div>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <span>scroll</span>
+    <span class="scroll-arrow">↓</span>
+  </div>
+</section>
+
+<!-- SOBRE MÍ -->
+<section id="sobre-mi">
+  <p class="section-label reveal">// about me</p>
+  <div class="divider reveal"></div>
+  <h2 class="section-title reveal">Sobre Mí</h2>
+  <p class="section-desc reveal">Desarrollador/a full-stack con pasión por el código limpio y las experiencias de usuario excepcionales.</p>
+
+  <div class="about-grid">
+    <div class="about-visual reveal">
+      <div class="code-block">
+        <div class="cb-header">
+          <div class="dot dot-r"></div>
+          <div class="dot dot-y"></div>
+          <div class="dot dot-g"></div>
+          <span class="cb-filename">developer.ts</span>
+        </div>
+        <div class="ln"><span class="ln-num">1</span><span><span class="kw">const</span> <span class="fn">developer</span> = {</span></div>
+        <div class="ln"><span class="ln-num">2</span><span>  <span class="prop">name</span>: <span class="str">"Alex Dev"</span>,</span></div>
+        <div class="ln"><span class="ln-num">3</span><span>  <span class="prop">role</span>: <span class="str">"Full Stack Dev"</span>,</span></div>
+        <div class="ln"><span class="ln-num">4</span><span>  <span class="prop">location</span>: <span class="str">"Argentina 🇦🇷"</span>,</span></div>
+        <div class="ln"><span class="ln-num">5</span><span>  <span class="prop">skills</span>: [</span></div>
+        <div class="ln"><span class="ln-num">6</span><span>    <span class="str">"React"</span>, <span class="str">"Node.js"</span>,</span></div>
+        <div class="ln"><span class="ln-num">7</span><span>    <span class="str">"Docker"</span>, <span class="str">"TypeScript"</span></span></div>
+        <div class="ln"><span class="ln-num">8</span><span>  ],</span></div>
+        <div class="ln"><span class="ln-num">9</span><span>  <span class="prop">available</span>: <span class="kw">true</span>,</span></div>
+        <div class="ln"><span class="ln-num">10</span><span>  <span class="fn">coffee</span>: () => <span class="str">"☕ siempre"</span></span></div>
+        <div class="ln"><span class="ln-num">11</span><span>};</span></div>
+        <div class="ln"><span class="ln-num">12</span><span class="cmt">// listo para el próximo reto</span></div>
+      </div>
+    </div>
+
+    <div class="about-content reveal">
+      <h3>¿Quién soy?</h3>
+      <p>Soy un/a desarrollador/a full-stack apasionado/a por transformar ideas en productos digitales reales. Me encanta cada etapa del proceso: desde el diseño de arquitecturas hasta el despliegue en producción.</p>
+      <p>Trabajo con metodologías ágiles, valoro el código limpio y estoy siempre en busca de nuevas tecnologías que me permitan construir mejores soluciones.</p>
+      <p>Fuera del código, disfruto del open source, los hackathons y compartir conocimiento con la comunidad tech.</p>
+      <div class="about-tags">
+        <span class="tag">React</span>
+        <span class="tag">TypeScript</span>
+        <span class="tag">Node.js</span>
+        <span class="tag">Docker</span>
+        <span class="tag">Git</span>
+        <span class="tag">PostgreSQL</span>
+        <span class="tag">MongoDB</span>
+        <span class="tag">Linux</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HABILIDADES -->
+<section id="habilidades">
+  <p class="section-label reveal">// skills</p>
+  <div class="divider reveal"></div>
+  <h2 class="section-title reveal">Habilidades Técnicas</h2>
+  <p class="section-desc reveal">Tecnologías con las que trabajo día a día para construir productos robustos y escalables.</p>
+
+  <div class="skills-grid">
+    <div class="skill-card reveal">
+      <div class="skill-icon">⚛️</div>
+      <div class="skill-name">React / Next.js</div>
+      <div class="skill-level">Avanzado</div>
+      <div class="bar-bg"><div class="bar-fill" data-width="90"></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">🟢</div>
+      <div class="skill-name">Node.js</div>
+      <div class="skill-level">Avanzado</div>
+      <div class="bar-bg"><div class="bar-fill" data-width="85"></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">🔷</div>
+      <div class="skill-name">TypeScript</div>
+      <div class="skill-level">Intermedio</div>
+      <div class="bar-bg"><div class="bar-fill" data-width="75"></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">🐳</div>
+      <div class="skill-name">Docker</div>
+      <div class="skill-level">Intermedio</div>
+      <div class="bar-bg"><div class="bar-fill" data-width="70"></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">🗄️</div>
+      <div class="skill-name">PostgreSQL</div>
+      <div class="skill-level">Avanzado</div>
+      <div class="bar-bg"><div class="bar-fill" data-width="80"></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">🍃</div>
+      <div class="skill-name">MongoDB</div>
+      <div class="skill-level">Intermedio</div>
+      <div class="bar-bg"><div class="bar-fill" data-width="72"></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">🐙</div>
+      <div class="skill-name">Git & GitHub</div>
+      <div class="skill-level">Avanzado</div>
+      <div class="bar-bg"><div class="bar-fill" data-width="92"></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">☁️</div>
+      <div class="skill-name">AWS / Cloud</div>
+      <div class="skill-level">Básico</div>
+      <div class="bar-bg"><div class="bar-fill" data-width="50"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROYECTOS -->
+<section id="proyectos">
+  <p class="section-label reveal">// projects</p>
+  <div class="divider reveal"></div>
+  <h2 class="section-title reveal">Proyectos Destacados</h2>
+  <p class="section-desc reveal">Algunos de los proyectos en los que he trabajado recientemente.</p>
+
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <div class="project-thumb p1-bg">🛒</div>
+      <div class="project-body">
+        <h3>E-Commerce Platform</h3>
+        <p>Plataforma de comercio electrónico full-stack con carrito, pagos y panel de administración en tiempo real.</p>
+        <div class="proj-tags">
+          <span class="proj-tag">React</span>
+          <span class="proj-tag">Node.js</span>
+          <span class="proj-tag">PostgreSQL</span>
+          <span class="proj-tag">Stripe</span>
+        </div>
+        <div class="proj-links">
+          <a href="#" class="proj-link">↗ Demo</a>
+          <a href="#" class="proj-link">⌥ GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-thumb p2-bg">🤖</div>
+      <div class="project-body">
+        <h3>AI Chat App</h3>
+        <p>Aplicación de chat con IA integrada, historial de conversaciones y soporte para múltiples modelos de lenguaje.</p>
+        <div class="proj-tags">
+          <span class="proj-tag">Next.js</span>
+          <span class="proj-tag">TypeScript</span>
+          <span class="proj-tag">OpenAI</span>
+          <span class="proj-tag">Docker</span>
+        </div>
+        <div class="proj-links">
+          <a href="#" class="proj-link">↗ Demo</a>
+          <a href="#" class="proj-link">⌥ GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-thumb p3-bg">📊</div>
+      <div class="project-body">
+        <h3>DevOps Dashboard</h3>
+        <p>Panel de monitoreo para infraestructura containerizada con métricas en tiempo real, logs y alertas automáticas.</p>
+        <div class="proj-tags">
+          <span class="proj-tag">React</span>
+          <span class="proj-tag">Docker</span>
+          <span class="proj-tag">MongoDB</span>
+          <span class="proj-tag">WebSockets</span>
+        </div>
+        <div class="proj-links">
+          <a href="#" class="proj-link">↗ Demo</a>
+          <a href="#" class="proj-link">⌥ GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCIA -->
+<section id="experiencia">
+  <p class="section-label reveal">// experience</p>
+  <div class="divider reveal"></div>
+  <h2 class="section-title reveal">Experiencia</h2>
+  <p class="section-desc reveal">Mi recorrido profesional en el desarrollo de software.</p>
+
+  <div class="timeline">
+    <div class="tl-item reveal">
+      <div class="tl-dot">💼</div>
+      <div class="tl-content">
+        <div class="tl-date">2023 – Presente</div>
+        <h4>Full Stack Developer</h4>
+        <div class="tl-company">Startup Tech · Freelance</div>
+        <p>Desarrollo de aplicaciones web escalables, APIs REST, integración con servicios cloud y contenedores Docker.</p>
+      </div>
+    </div>
+    <div class="tl-item reveal">
+      <div class="tl-dot">🚀</div>
+      <div class="tl-content">
+        <div class="tl-date">2022 – 2023</div>
+        <h4>Frontend Developer Jr.</h4>
+        <div class="tl-company">Agencia Digital</div>
+        <p>Construcción de interfaces con React, optimización de performance y colaboración en equipos ágiles.</p>
+      </div>
+    </div>
+    <div class="tl-item reveal">
+      <div class="tl-dot">🎓</div>
+      <div class="tl-content">
+        <div class="tl-date">2020 – 2022</div>
+        <h4>Formación en Desarrollo Web</h4>
+        <div class="tl-company">Autodidacta + Bootcamp</div>
+        <p>Fundamentos de programación, HTML/CSS/JS, Node.js, bases de datos y control de versiones con Git.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <p class="section-label reveal">// contact</p>
+  <div class="divider reveal"></div>
+  <h2 class="section-title reveal">¿Trabajamos juntos?</h2>
+  <p class="section-desc reveal">Estoy disponible para proyectos freelance, posiciones full-time y colaboraciones open source.</p>
+
+  <div class="contact-wrapper reveal">
+    <div class="contact-grid">
+      <div>
+        <label>// nombre</label>
+        <input type="text" placeholder="Tu nombre">
+      </div>
+      <div>
+        <label>// email</label>
+        <input type="email" placeholder="tu@email.com">
+      </div>
+      <div class="full">
+        <label>// asunto</label>
+        <input type="text" placeholder="¿En qué puedo ayudarte?">
+      </div>
+      <div class="full">
+        <label>// mensaje</label>
+        <textarea placeholder="Cuéntame sobre tu proyecto..."></textarea>
+      </div>
+    </div>
+    <button class="send-btn" onclick="handleSend(this)">Enviar Mensaje →</button>
+
+    <div class="social-row">
+      <a href="#" class="social-btn">🐙 GitHub</a>
+      <a href="#" class="social-btn">💼 LinkedIn</a>
+      <a href="#" class="social-btn">🐦 Twitter</a>
+      <a href="#" class="social-btn">📧 Email</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  Hecho con <span>♥</span> y <span>☕</span> · Alex Dev &copy; 2025 · <span>Buenos Aires, AR</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
